@@ -15,8 +15,8 @@ function incrementVariable() {
   i = i + 1;
 }
 let i = 0
-function doWhileLoop(zarray) {
+function doWhileLoop(array) {
   do{
-    zarray.shift()
-  } while (zarray.length > 0 || incrementVariable())
+    array.shift()
+  } while (array.length > 0 || incrementVariable())
 }
